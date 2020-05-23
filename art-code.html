@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dewesh Jha - Code-Out</title>
+
+    <!-- Stylesheets -->
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="art-code.css" />
+
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- FontAwesome-->
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
+      integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div id="nav-section">
+      <nav class="navbar navbar-expand-lg bg-dark justify-content-between nav1">
+        <span class="nav-icon hide3"
+          ><a href="contact.html" 
+            ><i class="fas fa-envelope fa-2x"></i></a
+        ></span>
+        <span class="brand">Dewesh Jha</span>
+        <span class="nav-icon nav-icon2 hide3"
+          ><a href="resume.html" 
+            ><i class="fas fa-user-graduate fa-2x"></i></a
+        ></span>
+      </nav>
+      <nav class="bar effect1 fixed-top"></nav>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light nav2">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#these"
+        aria-controls="#these"
+        aria-expanded="false"
+        aria-label="toggle-navigation"
+      >
+        <span class="navbar-toggler-icon"><a
+        href="index.html"
+        class="btn btn-sm btn-dark back-btn effect1"
+        role="button"
+        >Home</a
+      ></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="these">
+      
+        <ul class="navbar-nav m-auto hide1">
+          <li class="nav-listitem"><a href="contact.html" class="hide1 btn">Contact Me</a></li>
+           <li class="nav-listitem"><a href="resume.html" class="hide1 btn">Resume</a></li>
+        </ul>
+      
+      </nav>
+
+    <div id="body-section">
+      <a
+        href="index.html"
+        class="btn btn-sm btn-dark back-btn effect1 hide2"
+        role="button"
+        >Home</a
+      >
+      <h2 class="big-header">Code Out</h2>
+      <h4 class="big-heading">Technical articles on concepts of coding.</h4>
+      <hr class="h-rule bar" />
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-sm-12">
+            <div class="card">
+              <div class="card-header">
+                <ul
+                  class="nav nav-tabs card-header-tabs"
+                  id="bologna-list"
+                  role="tablist"
+                >
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active"
+                      href="#description"
+                      role="tab"
+                      aria-controls="description"
+                      aria-selected="true"
+                      >ARTICLE 1</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link"
+                      href="#history"
+                      role="tab"
+                      aria-controls="history"
+                      aria-selected="false"
+                      >ARTICLE 2</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="card-body">
+                <div class="tab-content mt-3">
+                  <div class="tab-pane active" id="description" role="tabpanel">
+                    <h4 class="card-title">
+                      <u>
+                        Time Complexity
+                      </u>
+                    </h4>
+                    <br />
+                    <p class="card-text">
+                      Ever wondered why some programs take more time to perform
+                      a given task, while the others take just fraction of a
+                      second? <br />
+                      Why do we have so many different algorithms to perform one
+                      particular operation? <br />
+                      <br />
+                      Well, the answer is <strong>COMPLEXITY</strong> <br />
+                      <br />
+                      We try to come up with new algorithms to solve a
+                      particular problem to achieve better, more efficient
+                      Complexities (both space and time). <br />
+                      <br />
+                      Let us try to understand this: <br />
+                      Suppose we have a number N and we need to check whether it
+                      is a prime number or not. <br />
+                      <br />
+                      Person A gives the following algorithm: <br />
+                      <br />
+                      for i=2 to N-1 <br />
+                      if i divides N then <br />
+                      N is NOT prime <br />
+                      <br />
+                      Person B gives the following algorithm: <br />
+                      <br />
+                      for i=2 to &radic; N <br />
+                      if i divides N <br />
+                      N is NOT prime <br />
+                      <br />
+                      Both the algorithms are correct and will yield the right
+                      answer, but both behave differently to various input
+                      values of N. <br />
+                      <br />
+                      Let us see how: <br />
+                      Suppose the computer takes 1ms for a division operation.
+                      For both the algorithms the worst case would be when N is
+                      prime.
+                    </p>
+                    <br />
+                    <br />
+
+                    <div class="row">
+                      <div class="col-md-6 table1">
+                        <p class="card-text">
+                          In worst case, <br />
+                          A’s algorithm runs and division is performed (N-2)
+                          times.
+                        </p>
+                        <p class="card-text">Time taken by program</p>
+                        <br />
+                        <div class="row">
+                          <div class="col-md-6">
+                            <p class="card-text">
+                              for n = 11 <br />
+                              for n = 101 <br />
+                              for n = 10<sup>6</sup> + 3 <br />
+                              for n = 10<sup>10</sup> + 9 <br />
+                            </p>
+                          </div>
+                          <div class="col-md-6">
+                            <p class="card-text">
+                              T = 9ms <br />
+                              T = 99ms <br />
+                              T = 16.66 min <br />
+                              T= 115 days <br />
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-md-6 table2">
+                        <p class="card-text">
+                          In worst case, <br />
+                          B’s algorithm runs and division is performed
+                          (&radic;N-1) times.
+                        </p>
+                        <p class="card-text">Time taken by program</p>
+                        <br />
+                        <div class="row">
+                          <div class="col-md-6">
+                            <p class="card-text">
+                              for n = 11 <br />
+                              for n = 101 <br />
+                              for n = 10<sup>6</sup> + 3 <br />
+                              for n = 10<sup>10</sup> + 9 <br />
+                            </p>
+                          </div>
+                          <div class="col-md-6">
+                            <p class="card-text">
+                              T = 2ms <br />
+                              T = 9ms <br />
+                              T = 1 sec <br />
+                              T= 1.66 min <br />
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <br />
+                    <br />
+                    <p class="card-text">
+                      <br />
+                      Therefore we can without doubt say, that B’s algorithm is
+                      better than A’s because it takes much less time for large
+                      values of N. <br />
+                      <br />
+                      <strong>
+                        TIME COMPLEXITY of a program is a simple measurement of
+                        how fast the time taken by the program grows, if the
+                        input size increases.
+                      </strong>
+                      <br />
+                      Eg: In case of A, if input is N, then <br />
+                      <span class="middle"> T &prop; N</span> <br />
+                      But in case of B, if input is N, then <br />
+                      <span class="middle"> T &prop; &radic; N</span> <br />
+                      Therefore, we must choose algorithm B, because it behaves
+                      well for larger input sizes. <br />
+                      <br />
+                      <strong
+                        >How to calculate the running time of an
+                        algorithm?</strong
+                      >
+                      <br />
+                      Running time is the actual time taken by an algorithm.
+                      <br />
+                      There are certain factors on which the running time
+                      depends:
+                    </p>
+
+                    <ul>
+                      <li>Processor specifications</li>
+                      <li>Read/Write speed to memory</li>
+                      <li>32bit or 64bit Architecture</li>
+                      <li>Other configurations of the machine</li>
+                      <li>INPUT</li>
+                    </ul>
+                    <p class="card-text">
+                      Though there are many aspects that can be considered, but
+                      all we bother about is how our program behaves for various
+                      inputs or how the time taken by the program grows with the
+                      input of the program. <br />
+                      <strong
+                        >Mostly we are interested in the rate of growth of time
+                        taken with respect to the input.</strong
+                      >
+                      <br />
+                      <br />
+                      <strong> <u> Concept of Model Machine:</u> </strong><br />
+                      We cannot just assume on which kind of machine our program
+                      will be executed while writing the algorithms. So, we
+                      define a hypothetical model machine where we will execute
+                      our programs. <br />
+                      Characteristics:
+                    </p>
+                    <ul>
+                      <li>Single processor</li>
+                      <li>32 bit architecture</li>
+                      <li>Sequential execution</li>
+                      <li>
+                        1 unit time for arithmetical and logical operations
+                      </li>
+                      <li>1 unit time for assignment and return.</li>
+                    </ul>
+                    <br />
+                    <p class="card-text">
+                      So let us say we have 3 algorithms: <br />
+                      <br />
+                    </p>
+                    <div class="container1">
+                      <img
+                        class="algo-image effect1"
+                        src="algo1.JPG"
+                        alt="algo1-img"
+                      />
+                    </div>
+                    <br />
+                    <div class="container1">
+                      <img
+                        class="algo-image effect1"
+                        src="algo2.JPG"
+                        alt="algo2-img"
+                      />
+                    </div>
+                    <br />
+                    <div class="container1">
+                      <p class="card-text">
+                        T <sub>sumoflist</sub> = 1 + n +1 + n + 1 = 4n + 4
+                        <br />
+                        For very large values of n, we can ignore the constant
+                        and state that: <br />
+                        This time taken grows linearly as T
+                        <sub>sumoflist</sub> &prop; n <br />
+                        This is called a <strong> LINEAR TIME ALGORITHM </strong
+                        ><br />
+                      </p>
+                    </div>
+                    <br />
+                    <div class="container1">
+                      <img
+                        class="algo-image effect1"
+                        src="algo3.JPG"
+                        alt="algo3-img"
+                      />
+                    </div>
+                    <br />
+                    <div class="container1">
+                      <p class="card-text">
+                        T <sub>sumofmatrix</sub> = 1 + n + 1 + n ∗ n + n + n ∗ n
+                        + 1 <br />
+                        T <sub>sumofmatrix</sub> = 4n <sup>2</sup> + 4n + 4
+                        <br />
+                        For very large values of n, 4n+4 will become
+                        insignificant compared to 4n <sup>2</sup> and so we can
+                        state that:
+                        <br />
+                        T <sub>sumofmatrix</sub> &prop; n <sup>2</sup>
+                      </p>
+                    </div>
+                    <br />
+                    <br />
+                    <hr />
+                    <p class="card-text">
+                      Therefore we have, <br />
+                      <strong>
+                        T <sub>sum</sub> = constant <br />
+                        T <sub>sumoflist</sub> = 4n + 4 (linear) <br />
+                        T <sub>sumofmatrix</sub>= 4n <sup>2</sup> + 4n + 4
+                        (quadratic) <br />
+                      </strong>
+                      <br />
+                      We can plot these versus input n. We will find that the
+                      rate of growth of a quadratic function is much higher than
+                      that of a linear function. <br />
+                      <br />
+                      <br />
+                    </p>
+                    <div class="container1">
+                      <img
+                        class="algo-image effect1"
+                        src="graph.png"
+                        alt="graph-img"
+                      />
+                    </div>
+                    <p class="card-text">
+                      <br />
+                      We often classify these functions in set, where the rate
+                      of growth of all the functions in a particular set is very
+                      similar. <br />
+                      Eg: <br />
+                      O(n <sup>2</sup> ) defines a set of all the functions of
+                      the form T = an <sup>2</sup> + cn + d <br />
+                      O(n) defines a set of all the functions of the form T = an
+                      + c <br />
+                      O(1) defines a set of all the functions of the form T =
+                      constant <br />
+                      This classification is done using
+                      <strong>ASYMPTOTIC BOUNDS</strong> and O(𝑔(n)) is called
+                      the Big-Oh notation which is an
+                      <strong>asymptotic notation</strong>.
+                      <br />
+                      <br />
+                    </p>
+                  </div>
+
+                  <div
+                    class="tab-pane"
+                    id="history"
+                    role="tabpanel"
+                    aria-labelledby="history-tab"
+                  >
+                    <h4 class="card-title">
+                      <u> Asymptotic Notations </u>
+                    </h4>
+
+                    <p class="card-text">
+                      COMING SOON
+                    </p>
+
+                    <hr />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <p class="footer-text">
+          <i class="fas fa-copyright" style="color: #ccc;"></i>
+          <a href="#" target="_blank">2020 Dewesh Jha</a>. Coded by
+          <a href="#">Dewesh Jha</a>.
+        </p>
+        <p class="attribution">
+          image taken from www.wikitechy.com
+        </p>
+      </footer>
+    </div>
+
+    <!-- Fontawesome JS -->
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.1.1/js/all.js"
+      integrity="sha384-BtvRZcyfv4r0x/phJt9Y9HhnN5ur1Z+kZbKVgzVBAlQZX4jvAuImlIz+bG7TS00a"
+      crossorigin="anonymous"
+    ></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="art-code.js"></script>
+  </body>
+</html>

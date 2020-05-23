@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dewesh Jha - We're Engineers</title>
+
+    <!-- Stylesheets -->
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="art-eng.css" />
+
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- FontAwesome-->
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
+      integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+     <div id="nav-section">
+      <nav class="navbar navbar-expand-lg bg-dark justify-content-between nav1">
+        <span class="nav-icon hide3"
+          ><a href="contact.html" 
+            ><i class="fas fa-envelope fa-2x"></i></a
+        ></span>
+        <span class="brand">Dewesh Jha</span>
+        <span class="nav-icon nav-icon2 hide3"
+          ><a href="resume.html" 
+            ><i class="fas fa-user-graduate fa-2x"></i></a
+        ></span>
+      </nav>
+      <nav class="bar effect1 fixed-top"></nav>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light nav2">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#these"
+        aria-controls="#these"
+        aria-expanded="false"
+        aria-label="toggle-navigation"
+      >
+        <span class="navbar-toggler-icon"
+          ><a
+            href="index.html"
+            class="btn btn-sm btn-dark back-btn effect1"
+            role="button"
+            >Home</a
+          ></span
+        >
+      </button>
+
+      <div class="collapse navbar-collapse" id="these">
+        <ul class="navbar-nav m-auto hide1">
+          <li class="nav-listitem">
+            <a href="contact.html" class="hide1 btn">Contact Me</a>
+          </li>
+          <li class="nav-listitem">
+            <a href="resume.html" class="hide1 btn">Resume</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div id="body-section">
+      <a
+        href="index.html"
+        class="btn btn-sm btn-dark back-btn effect1 hide2"
+        role="button"
+        >Home</a
+      >
+      <h2 class="big-header">We're Engineers</h2>
+      <h4 class="big-heading">Technical and non-technical engineering topics for dummies</h4>
+      <hr class="h-rule bar" />
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-sm-12">
+            <div class="card">
+              <div class="card-header">
+                <ul
+                  class="nav nav-tabs card-header-tabs"
+                  id="bologna-list"
+                  role="tablist"
+                >
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active"
+                      href="#description"
+                      role="tab"
+                      aria-controls="description"
+                      aria-selected="true"
+                      >ARTICLE 1</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link"
+                      href="#history"
+                      role="tab"
+                      aria-controls="history"
+                      aria-selected="false"
+                      >ARTICLE 2</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="card-body">
+                <div class="tab-content mt-3">
+                  <div class="tab-pane active" id="description" role="tabpanel">
+                    <h4 class="card-title">
+                      <u> Elements of a Communication System</u>
+                    </h4>
+                    <p class="card-text">
+                      <br />
+                      How are we able to exchange words over the phone? <br />
+                      How is a picture sent from one mobile is recieved by
+                      another one which is a thousand miles away? <br />
+                      Answer is that we have something called a
+                      <strong>COMMUNICATION SYSTEM</strong>. <br />
+                      <br />
+                      <strong>But what is communication?</strong> <br />
+
+                      Communication is the exchange of information. The best way
+                      to understand this is talking to someone. When I say
+                      something (transmit), you listen (recieve) it and then you
+                      interpret it. This is nothing but <strong>COMMUNICATION</strong>. 
+                      In a communication system our porpuse is to transmit some
+                      signal (that contains information) from one end and then
+                      recieve it at the other end, where the signal is
+                      interpreted to get the correct information. <br />
+                      <br />
+                      The following is the block diagrom of a Communication
+                      System.
+                      <br /> <br>
+                    </p>
+                    <div class="container1"><img class="effect1" src="Final.png" alt="Elements-img" /></div>
+                    <br /> <br>
+
+                    <ul>
+                      <li>
+                        At the source, some <strong>message</strong> is
+                        originated. This message can be of any kind. For eg:
+                        human speech, SMS, pictures, vedios etc.
+                        
+                        The important point here is that this message may or may
+                        not br in electric form. So, for transmission purpose it
+                        must be converted into an electrical signal using a
+                        <strong>TRANSDUCER</strong>.
+                        
+                        The output of the transducer is an electrical signal,
+                        which is now called a
+                        <strong>BASEBAND signal or MESSAGE signal</strong>.
+                      </li>
+                      <li>
+                        The message signal is fed to the transmitter, which
+                        modifies it for better, efficient transmission. Now this
+                        modified message signal is transmitted into the channel.
+                      </li>
+                      <li>
+                        The <strong>CHANNEL</strong> is just a medium through
+                        which the signal flows. Eg: wires for telephones, air
+                        for cell phones, vaccum for gallactic communication.
+                        
+                        So the signal travels through the channel until it
+                        reaches the receiver.
+                      </li>
+                      <li>
+                        The purpose of the Receiver is to process the signal
+                        received from the channel by undoing the signal
+                        modifications made at the transmitter and in the
+                        channel.
+                        
+                        So at the receiver output we have the same unmodified
+                        message signal (that was earlier fed to the
+                        transmitter).
+                      </li>
+                      <li>
+                        The receiver output (i.e our message signal) is now fed
+                        to another transducer that convert the electrical signal
+                        to the original form.
+                      </li>
+                    </ul>
+                    <br>
+                   <div class="container1"> <strong>
+                      The Transmitter, Channel and the Recevier are collectively
+                      called the three elements of communication.</strong
+                    ></div>
+
+                    <br /><br />
+                    <p class="card-text">
+                      This way a person speaking something in a phone can be
+                      heared by someone 1000m away. The phone has a transducer
+                      that converts the human speech (sound) to message signal
+                      (electric), which is then fed to the transmitter. Transmitter does its part and the modified signal is transmitted into the
+                      channel (wires in case of telephones). <br> The receiver's
+                      phone has a receiver that demodifies the signal to get
+                      back the message signal and feeds it to the transducer
+                      that converts this signal (electric) back to human speech
+                      (sound), which is heard via a speaker.
+                    </p>
+                  </div>
+
+                  <div
+                    class="tab-pane"
+                    id="history"
+                    role="tabpanel"
+                    aria-labelledby="history-tab"
+                  >
+                    <h4 class="card-title">
+                      <u> Modulation and its needs </u>
+                    </h4>
+
+                    <p class="card-text">
+                      <!-- type here article 2 -->
+                      COMING SOON
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <p class="footer-text">
+          <i class="fas fa-copyright" style="color: #ccc;"></i>
+          <a href="#" target="_blank">2020 Dewesh Jha</a>. Coded by
+          <a href="#">Dewesh Jha</a>.
+        </p>
+      </footer>
+    </div>
+
+    <!-- Fontawesome JS -->
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.1.1/js/all.js"
+      integrity="sha384-BtvRZcyfv4r0x/phJt9Y9HhnN5ur1Z+kZbKVgzVBAlQZX4jvAuImlIz+bG7TS00a"
+      crossorigin="anonymous"
+    ></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="art-eng.js"></script>
+  </body>
+</html>
