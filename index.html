@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dewesh Jha - Perception and Change</title>
+    <title>Dewesh Jha - Work Samples</title>
 
     <!-- Stylesheets -->
 
@@ -15,7 +15,7 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="questions.css" />
+    <link rel="stylesheet" href="styles.css" />
 
     <!-- Fonts -->
     <link
@@ -54,7 +54,7 @@
       </nav>
       <nav class="bar effect1 fixed-top"></nav>
     </div>
-
+    <!-- collapsable nav bar -->
     <nav class="navbar navbar-expand-lg navbar-light nav2">
       <button
         class="navbar-toggler"
@@ -65,329 +65,141 @@
         aria-expanded="false"
         aria-label="toggle-navigation"
       >
-        <span class="navbar-toggler-icon"
-          ><a
-            href="index.html"
-            class="btn btn-sm btn-dark back-btn effect1"
-            role="button"
-            >Home</a
-          ></span
-        >
+        <span class="navbar-toggler-icon"></span>
       </button>
 
       <div class="collapse navbar-collapse" id="these">
-        <ul class="navbar-nav m-auto hide1">
+        <ul class="navbar-nav m-auto hide2">
           <li class="nav-listitem">
-            <a href="contact.html" class="hide1 btn">Contact Me</a>
+            <a
+              href="#"
+              class="btn btn-md btn-outline-dark nav-anchor active"
+              role="button"
+              >Content Writing</a
+            >
           </li>
           <li class="nav-listitem">
-            <a href="resume.html" class="hide1 btn">Resume</a>
+            <a
+              href="under-construction.html"
+              class="btn btn-md btn-outline-dark nav-anchor"
+              role="button"
+              >Web Development</a
+            >
+          </li>
+          <li class="nav-listitem">
+            <a
+              href="question.html"
+              class="btn btn-outline-dark nav-anchor"
+              role="button"
+              >Coding and Logic</a
+            >
+          </li>
+        </ul>
+        <ul class="navbar-nav m-auto hide1">
+          <li class="nav-listitem">
+            <a href="" class="btn hide1">Content Writing</a>
+          </li>
+          <li class="nav-listitem">
+            <a href="under-construction.html" class="hide1 btn"
+              >Web Development</a
+            >
+          </li>
+          <li class="nav-listitem">
+            <a href="question.html" class="hide1 btn"
+              >Coding and Logic</a
+            >
+          </li>
+          <li class="nav-listitem">
+            <a class="hide1 btn" href="contact.html">Contact Me</a>
+          </li>
+          <li class="nav-listitem">
+            <a class="hide1 btn" href="resume.html">Resume</a>
           </li>
         </ul>
       </div>
     </nav>
 
     <div id="body-section">
-      <a
-        href="index.html"
-        class="btn btn-sm btn-dark back-btn effect1 hide2"
-        role="button"
-        >Home</a
-      >
-      <h2 class="big-header">C++ Practice Questions</h2>
-      <h4 class="big-heading">
-        Topic wise questions to be completed withing day limit
-      </h4>
-      <hr class="h-rule bar" />
+      <div id="title-section">
+        <h1 class="big-header">Content Writing</h1>
+        <h1 class="big-heading">Powered by Creativity</h1>
+        <h6 class="title-p">
+          Hi! I am Dewesh. A Content writer, Web developer and a Coder. Take a
+          look at my work.
+        </h6>
+      </div>
 
-      <div class="container">
+      <div id="cards-section">
         <div class="row">
-          <div class="col-md-12 col-sm-12">
-            <div class="card">
-              <div class="card-header">
-                <ul
-                  class="nav nav-tabs card-header-tabs"
-                  id="bologna-list"
-                  role="tablist"
-                >
-                  <li class="nav-item">
-                    <a
-                      class="nav-link active"
-                      href="#instruction"
-                      role="tab"
-                      aria-controls="instruction"
-                      aria-selected="true"
-                      >INSTRUCTIONS</a
-                    >
-                  </li>
-                  <li class="nav-item">
-                    <a
-                      class="nav-link"
-                      href="#description"
-                      role="tab"
-                      aria-controls="description"
-                      aria-selected="false"
-                      >INTRO</a
-                    >
-                  </li>
-                  <li class="nav-item">
-                    <a
-                      class="nav-link"
-                      href="#history"
-                      role="tab"
-                      aria-controls="history"
-                      aria-selected="false"
-                      >DECISION & LOOP</a
-                    >
-                  </li>
-                </ul>
-              </div>
-              <div class="card-body">
-                <div class="tab-content mt-3">
-                  <div class="tab-pane active" id="instruction" role="tabpanel">
-                    <h4 class="card-title">
-                      Make yourself Useful
-                    </h4>
-
-                    <p class="card-text">
-                      Try every question yourself. Ek baar try kr lene k baad
-                      answer dekh lena. <br />
-                      <strong>
-                        Jo question already aata hai wo v karo, kaam
-                        aayega.</strong
-                      >
-                      <br />
-                      Jahan google use krna pade kr lo, pr ek try zarur karo.
-                      Waise v questions bhut asaan h.
-                      <br />
-                      <br />
-                      Intro and Decision & loop question.
-                      <br> Time : 1 day for both sections.
-                    </p>
-                  </div>
-                  <div class="tab-pane" id="description" role="tabpanel">
-                    <h4 class="card-title">
-                      Basic C++ syntax based questions
-                    </h4>
-
-                    <ol>
-                      <li class="item">
-                        Write a program ( WAP ) to print Hello World.
-                        <a
-                          href="https://www.programiz.com/cpp-programming/examples/print-sentence"
-                          target="_blank"
-                          >[answer]</a
-                        >
-                      </li>
-                      <li class="item">
-                        WAP to Print Number Entered by User.<a
-                          href="https://www.programiz.com/cpp-programming/examples/read-print-integer"
-                          target="_blank"
-                          >[answer]</a
-                        >
-                      </li>
-                      <li class="item">
-                        WAP to Add Two Numbers taken from user.
-                        <a
-                          href="https://www.programiz.com/cpp-programming/examples/add-numbers"
-                          target="_blank"
-                          >[answer]</a
-                        >
-                      </li>
-                      <li class="item">
-                        WAP to Find Quotient and Remainder.
-                        <a
-                          href="https://www.programiz.com/cpp-programming/examples/quotient-remainder"
-                          target="_blank"
-                          >[answer]</a
-                        >
-                      </li>
-                      <li class="item">
-                        WAP to Find Size of int, float, double and char in Your
-                        System.
-                        <a
-                          href="https://www.programiz.com/cpp-programming/examples/sizeof-operator"
-                          target="_blank"
-                          >[answer]</a
-                        >
-                      </li>
-                      <li class="item">
-                        WAP to Swap Two Numbers.
-                        <a
-                          href="https://www.programiz.com/cpp-programming/examples/swapping"
-                          target="_blank"
-                          >[answer]</a
-                        >
-                      </li>
-                      <li class="item">
-                        WAP to Find ASCII Value of a Character.
-                        <a
-                          href="https://www.programiz.com/cpp-programming/examples/ASCII-value-character"
-                          target="_blank"
-                          >[answer]</a
-                        >
-                      </li>
-                      <li class="item">
-                        WAP to Multiply two Numbers.
-                        <a
-                          href="https://www.programiz.com/cpp-programming/examples/product-numbers"
-                          target="_blank"
-                          >[answer]</a
-                        >
-                      </li>
-                    </ol>
-                  </div>
-
-                  <div
-                    class="tab-pane"
-                    id="history"
-                    role="tabpanel"
-                    aria-labelledby="history-tab"
-                  >
-                    <h4 class="card-title">
-                      Basic if/else and loops questions.
-                    </h4>
-
-                    <ol>
-                      <li class="item">
-                        WAP to Check Whether Number is Even or Odd.
-                        <a
-                          href="https://www.programiz.com/cpp-programming/examples/even-odd"
-                          target="_blank"
-                          >[answer]</a
-                        >
-                      </li>
-                      <li class="item">
-                        WAP to Check Whether a character is Vowel or Consonant.
-                        <a
-                          href="https://www.programiz.com/cpp-programming/examples/vowel-consonant"
-                          target="_blank"
-                          >[answer]</a
-                        >
-                      </li>
-                      <li class="item">
-                        WAP to Find Largest Number Among Three Numbers.<a
-                          href="https://www.programiz.com/cpp-programming/examples/largest-number-among-three"
-                          target="_blank"
-                          >[answer]</a
-                        >
-                      </li>
-                      <li class="item">
-                        WAP to Find All Roots of a Quadratic Equation.
-                        <a
-                          href="https://www.programiz.com/cpp-programming/examples/quadratic-roots"
-                          target="_blank"
-                          >[answer]</a
-                        >
-                      </li>
-                      <li class="item">
-                        WAP to Calculate Sum of Natural Numbers.<a
-                          href="https://www.programiz.com/cpp-programming/examples/sum-natural-number"
-                          target="_blank"
-                          >[answer]</a
-                        >
-                      </li>
-
-                      <li class="item">
-                        WAP to Check Leap Year.<a
-                          href="https://www.programiz.com/cpp-programming/examples/leap-year"
-                          target="_blank"
-                          >[answer]</a
-                        >
-                      </li>
-                      <li class="item">
-                        WAP to Find Factorial.
-                        <a
-                          href="https://www.programiz.com/cpp-programming/examples/factorial"
-                          target="_blank"
-                          >[answer]</a
-                        >
-                      </li>
-                      <li class="item">
-                        WAP to Generate Multiplication Table.
-                        <a
-                          href="https://www.programiz.com/cpp-programming/examples/multiplication-table"
-                          target="_blank"
-                          >[answer]</a
-                        >
-                      </li>
-                      <li class="item">
-                        WAP to Display Fibonacci Series.
-                        <a
-                        href="https://www.programiz.com/cpp-programming/examples/fibonacci-series"                          target="_blank"
-                          >[answer]</a
-                        >
-                      </li>
-                      <li class="item">
-                        WAP to find GCD of 2 numbers.
-                        <a
-                        href="https://www.programiz.com/cpp-programming/examples/hcf-gcd"                          target="_blank"
-                          >[answer]</a
-                        >
-                      </li>
-                      <li class="item">
-                        WAP to Find LCM of 2 numbers. <a
-                        href="https://www.programiz.com/cpp-programming/examples/lcm"                          target="_blank"
-                          >[answer]</a
-                        >
-                      </li>
-                      <li class="item">
-                        WAP to Reverse a Number.
-                        <a
-                        href=" https://www.programiz.com/cpp-programming/examples/reverse-number"                          target="_blank"
-                          >[answer]</a
-                        >
-                      </li>
-                      <li class="item">
-                        WAP to Calculate Power of a Number.<a
-                        href="https://www.programiz.com/cpp-programming/examples/power-number"                          target="_blank"
-                          >[answer]</a
-                        >
-                      </li>
-                      <li class="item">
-                        WAP to Check Whether a Number is Palindrome or Not.<a
-                        href="https://www.programiz.com/cpp-programming/examples/palindrome-number"                          target="_blank"
-                          >[answer]</a
-                        >
-                      </li>
-                      <li class="item">
-                        WAP to Display Prime Numbers Between Two Intervals.<a
-                        href="https://www.programiz.com/cpp-programming/examples/prime-number-intervals"                          target="_blank"
-                          >[answer]</a
-                        >
-                      </li>
-                      <li class="item">
-                        WAP to Check Whether a Number is Prime or Not.<a
-                        href="https://www.programiz.com/cpp-programming/examples/prime-number"                          target="_blank"
-                          >[answer]</a
-                        >
-                      </li>
-                      <li class="item">
-                        WAP to Check Armstrong Number.
-                        <a
-                        href="https://www.programiz.com/cpp-programming/examples/check-armstrong-number"                          target="_blank"
-                          >[answer]</a
-                        >
-                      </li>
-                      <li class="item">
-                        WAP to Display Armstrong Number Between Two Intervals.
-                        <a
-                        href="https://www.programiz.com/cpp-programming/examples/armstrong-number-interval"                          target="_blank"
-                          >[answer]</a
-                        >
-                      </li>
-                      <li class="item">
-                        WAP to Display Factors of a Number.
-                        <a
-                        href="https://www.programiz.com/cpp-programming/examples/factors-number"                          target="_blank"
-                          >[answer]</a
-                        >
-                      </li>
-                    </ol>
-                  </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <a href="art-p&c.html" class="card-link">
+              <div class="card text-left card-one effect3 ">
+                <div class="card-header card-header-2"></div>
+                <div class="card-body">
+                  <h5 class="card-title">Karma & Awareness</h5>
+                  <p class="card-text">
+                    Articles on compelling topics of Life and Living.
+                  </p>
+                  <img src="004-idea.svg" alt="karma-img" />
                 </div>
               </div>
-            </div>
+            </a>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <a href="art-eng.html" class="card-link">
+              <div class="card text-left card-two effect3">
+                <div class="card-header card-header-1"></div>
+                <div class="card-body">
+                  <h5 class="card-title">We're Engineers</h5>
+                  <p class="card-text">
+                    Technical and non-technical engineering topics for dummies.
+                  </p>
+                  <img src="003-google.svg" alt="supervisor-img" />
+                </div>
+              </div>
+            </a>
+            <a href="art-webd.html" class="card-link hide2">
+              <div class="card text-left card-three effect3 hide2">
+                <div class="card-header card-header-3"></div>
+                <div class="card-body">
+                  <h5 class="card-title">WebD - Design & Doodle</h5>
+                  <p class="card-text">
+                    Web Development articles to inspire passion and imbibe
+                    knowledge.
+                  </p>
+                  <img src="005-homepage.svg" alt="team-builder-img" />
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 hide1">
+            <a href="art-webd.html" class="card-link">
+              <div class="card text-left card-three effect3">
+                <div class="card-header card-header-3"></div>
+                <div class="card-body">
+                  <h5 class="card-title">WebD - Design & Doodle</h5>
+                  <p class="card-text">
+                    Web Development articles to inspire passion and imbibe
+                    knowledge.
+                  </p>
+                  <img src="005-homepage.svg" alt="team-builder-img" />
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <a href="art-code.html" class="card-link">
+              <div class="card text-left card-four effect3">
+                <div class="card-header card-header-4"></div>
+                <div class="card-body">
+                  <h5 class="card-title">Code Out</h5>
+                  <p class="card-text">
+                    Technical articles on concepts of coding and programing.
+                  </p>
+                  <img src="006-code.svg" alt="calculator-imgg" />
+                </div>
+              </div>
+            </a>
           </div>
         </div>
       </div>
@@ -398,6 +210,16 @@
           <a href="#">Dewesh Jha</a>.
         </p>
       </footer>
+      <div class="attribution">
+        Icons made by
+        <a href="https://www.flaticon.com/authors/freepik" title="Freepik"
+          >Freepik</a
+        >
+        from
+        <a href="https://www.flaticon.com/" title="Flaticon"
+          >www.flaticon.com</a
+        >
+      </div>
     </div>
 
     <!-- Fontawesome JS -->
@@ -423,6 +245,9 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
-    <script src="art-p&c.js"></script>
   </body>
 </html>
+
+<!-- UP BUTTON -->
+<!-- 
+<i class="fas fa-arrow-circle-up"></i> -->
